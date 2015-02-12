@@ -43,7 +43,7 @@ cacheSolve <- function(x, ...) {
     inv <- x$getInverse() 
     
     ## if inv is not null, return inverse of x.. No computation required. 
-    ## note that we need to use is.null and not is.na
+    
     if (!is.null(inv)){ 
         
         return(inv) 
